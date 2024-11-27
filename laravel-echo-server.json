@@ -1,0 +1,36 @@
+{
+	"authHost": "http://emuwarez.it",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "55e3ddcd7a83bc4e",
+			"key": "d1712fa7255df066aea6a13fe930e540"
+		},
+		{
+			"appId": "60d18cda3285bf48",
+			"key": "cb4e3d553d924fb06b3076fbb53bdffa"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": false,
+	"host": null,
+	"port": "8443",
+	"protocol": "http",
+	"socketio": {},
+	"sslCertPath": "/etc/letsencrypt/live/emuwarez.it/cert.pem",
+	"sslKeyPath": "/etc/letsencrypt/live/emuwarez.it/privkey.pem",
+	"sslCertChainPath": "/etc/letsencrypt/live/emuwarez.it/fullchain.pem",
+	"sslPassphrase": "",
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}
